@@ -1,0 +1,431 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #454545;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#toggle-button {
+  display: none;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.container .now {
+  color: #9aaf24;
+  pointer-events: none;
+}
+
+.container header h1 {
+  text-align: left;
+  width: 208px;
+  height: 31px;
+}
+
+.container .section-title {
+  display: inline-block;
+  font-size: 24px;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 700;
+  padding-top: 8px;
+  text-align: center;
+  background: url(../img/titlebar.png) no-repeat left top;
+  background-size: 40px 3px;
+}
+
+.container .list-title {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.container .main-visual {
+  position: relative;
+  margin: 36px 0;
+}
+
+.container .main-visual .catchcopy {
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.container #menu .menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.container #menu .menu__item {
+  width: 180px;
+  height: 25px;
+  border-left: 2px solid #575757;
+  margin-bottom: 56px;
+}
+
+.container #menu .menu__item:last-child {
+  border-right: 2px solid #575757;
+}
+
+.container #menu .menu__item a {
+  display: block;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.container #menu .menu__item a:hover {
+  background-color: #fafafa;
+  color: #9aaf24;
+}
+
+.container .news {
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  margin-bottom: px;
+  padding: 70px 0 80px;
+}
+
+.container .news__list {
+  padding: 40px 0 0;
+  margin: 0 auto;
+  width: 720px;
+}
+
+.container .news__item {
+  margin: 0 auto 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+
+.container .news__item .date {
+  font-family: 'Montserrat',sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  width: 130px;
+  padding: 9px;
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+}
+
+.container .news__item a {
+  display: block;
+  margin-left: 170px;
+  width: 542px;
+  line-height: 28px;
+  -webkit-text-decoration-color: #c3c3c3;
+  text-decoration-color: #c3c3c3;
+}
+
+.container .features {
+  text-align: center;
+  padding: 124px 0 124px;
+}
+
+.container .features__content {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .features__image {
+  width: 360px;
+  height: 290px;
+}
+
+.container .features__text {
+  text-align: left;
+  margin-left: 56px;
+  line-height: 1.6;
+}
+
+.container .features__title {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.container .features__description {
+  font-size: 16px;
+}
+
+.container .features__description:last-child {
+  margin-top: 21px;
+}
+
+.container .subscription {
+  text-align: center;
+  padding-bottom: 124px;
+}
+
+.container .subscription__titletext {
+  width: 720px;
+  text-align: left;
+  padding: 48px 0 62px;
+  margin: 0 auto;
+}
+
+.container .subscription__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.container .subscription__item {
+  width: 344px;
+  border: 4px solid #c9e23f;
+  -webkit-box-shadow: 0px 0px 10px #c8c8c8;
+  box-shadow: 0px 0px 10px #c8c8c8;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .subscription__item:hover {
+  -webkit-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  transform: translateY(-4px);
+}
+
+.container .subscription__item:hover .btn {
+  background: #c9e240;
+  background: -webkit-gradient(linear, left top, right top, from(#c9e240), color-stop(50%, #8de288), to(#48e3db));
+  background: -webkit-linear-gradient(left, #c9e240 0%, #8de288 50%, #48e3db 100%);
+  background: -o-linear-gradient(left, #c9e240 0%, #8de288 50%, #48e3db 100%);
+  background: linear-gradient(90deg, #c9e240 0%, #8de288 50%, #48e3db 100%);
+}
+
+.container .subscription__item a {
+  display: block;
+  text-decoration: none;
+}
+
+.container .subscription__item img {
+  width: 100%;
+}
+
+.container .subscription__description {
+  padding: 34px 0 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container .subscription__description p {
+  font-family: 'Montserrat',sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  margin: 23px 0 37px;
+}
+
+.container .subscription__description p + p {
+  font-size: 14px;
+}
+
+.container .subscription__description span {
+  font-size: 32px;
+}
+
+.container .subscription__description .btn {
+  font-weight: bold;
+  display: inline-block;
+  background-color: #eee;
+  width: 296px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.container .item {
+  text-align: center;
+  margin-bottom: 460px;
+}
+
+.container .item__list {
+  padding-top: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.container .item__photo {
+  vertical-align: middle;
+}
+
+.container .item:hover {
+  opacity: 0.7;
+}
+
+.container footer {
+  font-family: 'Monserrats',sans-serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 14px;
+}
+
+html.hidden,
+body.hidden {
+  overflow: hidden;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .container .list-title {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .container header .header-title {
+    display: block;
+    margin: 20px 13px 22px;
+  }
+  .container #toggle-button {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 13px;
+  }
+  .container #menu {
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    /* viewport height */
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 1;
+  }
+  .container #menu__list {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+  .container #menu__item {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    border: none;
+  }
+  .container #menu__item a {
+    height: auto;
+    background-image: none;
+    padding: 12px 0;
+    border-top: 1px solid #cccccc;
+    text-align: center;
+  }
+  .container #menu__item:last-child {
+    border-bottom: 1px solid #ccc;
+  }
+  .container .main-visual {
+    margin: 18px 0 54px;
+  }
+  .container .main-visual img {
+    width: 100%;
+  }
+  .container .main-visual .catchcopy {
+    width: 125px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+  }
+  .container main {
+    padding: 0 12px;
+  }
+  .container main .news {
+    display: block;
+    margin: 0 auto;
+    padding: 35px 25px 40px;
+  }
+  .container main .news__list {
+    width: 100%;
+    display: block;
+  }
+  .container main .news__item {
+    display: block;
+  }
+  .container main .news__item .date {
+    display: block;
+    position: static;
+  }
+  .container main .news__item a {
+    margin-top: 11px;
+    margin-left: 0px;
+    width: 100%;
+  }
+  .container main .features {
+    padding: 62px 10px 62px;
+  }
+  .container main .features__title {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 30px 0 40px;
+  }
+  .container main .features__content {
+    display: block;
+    padding-top: 20px;
+  }
+  .container main .features__image {
+    width: 100%;
+  }
+  .container main .features__text {
+    margin-left: 0px;
+  }
+  .container main .subscription {
+    padding: 0;
+    margin: 40px 0 100px;
+  }
+  .container main .subscription__title-text {
+    width: 100%;
+    line-height: 1.6;
+    padding: 15px 0 15px;
+  }
+  .container main .subscription__list {
+    display: block;
+  }
+  .container main .subscription__item {
+    width: 100%;
+  }
+  .container main .item__list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 40px 0;
+  }
+  .container main .item__item {
+    width: 33.3%;
+  }
+  .container main .item__photo {
+    width: 100%;
+    display: block;
+  }
+}
